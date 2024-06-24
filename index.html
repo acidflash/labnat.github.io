@@ -1,0 +1,365 @@
+
+<HTML><HEAD>
+<TITLE>Subnet Mask Cheat Sheet</TITLE>
+</HEAD>
+  <style>
+img {
+  width: 100%;
+}
+</style>
+
+<BODY BGCOLOR="#FFFFFF" LINK="c00231">
+  
+<CENTER> <H1>IPv4 Subnet Mask Cheat Sheet</H1> <HR>
+<img src="0f899e27-4464-4a5e-8b77-9df5649d009b.jpg" alt="Logo" style="width:512px;height:512px;">
+<TABLE border=2 cellpadding=2 cellspacing=2> 
+<TR><TH> </TH><TH>Addresses</TH><TH>Netmask</TH><TH>Amount of a Class C</TH></TR> 
+<TR align=center><TH>/31</TH><TD>2</TD><TD>255.255.255.254</TD><TD>1/128</TD></TR> 
+<TR align=center><TH>/30</TH><TD>4</TD><TD>255.255.255.252</TD><TD>1/64</TD></TR> 
+<TR align=center><TH>/29</TH><TD>8</TD><TD>255.255.255.248</TD><TD>1/32</TD></TR> 
+<TR align=center><TH>/28</TH><TD>16</TD><TD>255.255.255.240</TD><TD>1/16</TD></TR> 
+<TR align=center><TH>/27</TH><TD>32</TD><TD>255.255.255.224</TD><TD>1/8</TD></TR> 
+<TR align=center><TH>/26</TH><TD>64</TD><TD>255.255.255.192</TD><TD>1/4</TD></TR> 
+<TR align=center><TH>/25</TH><TD>128</TD><TD>255.255.255.128</TD><TD>1/2</TD></TR> 
+<TR align=center><TH>/24</TH><TD>256</TD><TD>255.255.255.0</TD><TD>1</TD></TR> 
+<TR align=center><TH>/23</TH><TD>512</TD><TD>255.255.254.0</TD><TD>2</TD></TR> 
+<TR align=center><TH>/22</TH><TD>1024</TD><TD>255.255.252.0</TD><TD>4</TD></TR> 
+<TR align=center><TH>/21</TH><TD>2048</TD><TD>255.255.248.0</TD><TD>8</TD></TR> 
+<TR align=center><TH>/20</TH><TD>4096</TD><TD>255.255.240.0</TD><TD>16</TD></TR> 
+<TR align=center><TH>/19</TH><TD>8192</TD><TD>255.255.224.0</TD><TD>32</TD></TR> 
+<TR align=center><TH>/18</TH><TD>16384</TD><TD>255.255.192.0</TD><TD>64</TD></TR> 
+<TR align=center><TH>/17</TH><TD>32768</TD><TD>255.255.128.0</TD><TD>128</TD></TR> 
+<TR align=center><TH>/16</TH><TD>65536</TD><TD>255.255.0.0</TD><TD>256</TD></TR> 
+<TR align=center><TH>/15</TH><TD>131072</TD><TD>255.254.0.0</TD><TD>512</TD></TR> 
+<TR align=center><TH>/14</TH><TD>262144</TD><TD>255.252.0.0</TD><TD>1024</TD></TR> 
+<TR align=center><TH>/13</TH><TD>524288</TD><TD>255.248.0.0</TD><TD>2048</TD></TR> 
+<TR align=center><TH>/12</TH><TD>1048576</TD><TD>255.240.0.0</TD><TD>4096</TD></TR> 
+<TR align=center><TH>/11</TH><TD>2097152</TD><TD>255.224.0.0</TD><TD>8192</TD></TR>
+<TR align=center><TH>/10</TH><TD>4194304</TD><TD>255.192.0.0</TD><TD>16384</TD></TR> 
+<TR align=center><TH>/9</TH><TD>8388608</TD><TD>255.128.0.0</TD><TD>32768</TD></TR> 
+<TR align=center><TH>/8</TH><TD>16777216</TD><TD>255.0.0.0</TD><TD>65536</TD></TR> 
+</TABLE>
+
+<HR> 
+
+<H2>Guide to IPv4 subnets</H2> 
+<TABLE NOBORDER VALIGN=TOP> 
+<TR> <TD> <B>/25 -- 2 Subnets -- 126 Hosts/Subnet</B>
+<CENTER> 
+<TABLE BORDER=1> 
+<TR><TH>Network #</TH><TH>IP Range</TH><TH>Broadcast</TH></TR> 
+<TR><TD>.0</TD><TD>.1-.126</TD><TD>.127</TD></TR> 
+<TR><TD>.128</TD><TD>.129-.254</TD><TD>.255</TD></TR> 
+</TABLE> 
+</CENTER> 
+</TD> 
+
+<TD ROWSPAN=5> <B>/30 -- 64 Subnets -- 2 Hosts/Subnet</B><BR> <CENTER> 
+<TABLE BORDER=1 CELLSPACING=1 CELLPADDING=1 HSPACE=1 VSPACE=1> 
+<TR><TH>Network #</TH><TH>IP Range</TH><TH>Broadcast</TH></TR> 
+<TR><TD>.0</TD><TD>.1-.2</TD><TD>.3</TD></TR> 
+<TR><TD>.4</TD><TD>.5-.6</TD><TD>.7</TD></TR> 
+<TR><TD>.8</TD><TD>.9-.10</TD><TD>.11</TD></TR> 
+<TR><TD>.12</TD><TD>.13-.14</TD><TD>.15</TD></TR> 
+<TR><TD>.16</TD><TD>.17-.18</TD><TD>.19</TD></TR> 
+<TR><TD>.20</TD><TD>.21-.22</TD><TD>.23</TD></TR> 
+<TR><TD>.24</TD><TD>.25-.26</TD><TD>.27</TD></TR> 
+<TR><TD>.28</TD><TD>.29-.30</TD><TD>.31</TD></TR> 
+<TR><TD>.32</TD><TD>.33-.34</TD><TD>.35</TD></TR> 
+<TR><TD>.36</TD><TD>.37-.38</TD><TD>.39</TD></TR> 
+<TR><TD>.40</TD><TD>.41-.42</TD><TD>.43</TD></TR> 
+<TR><TD>.44</TD><TD>.45-.46</TD><TD>.47</TD></TR> 
+<TR><TD>.48</TD><TD>.49-.50</TD><TD>.51</TD></TR> 
+<TR><TD>.52</TD><TD>.53-.54</TD><TD>.55</TD></TR> 
+<TR><TD>.56</TD><TD>.57-.58</TD><TD>.59</TD></TR> 
+<TR><TD>.60</TD><TD>.61-.62</TD><TD>.63</TD></TR> 
+<TR><TD>.64</TD><TD>.65-.66</TD><TD>.67</TD></TR> 
+<TR><TD>.68</TD><TD>.69-.70</TD><TD>.71</TD></TR> 
+<TR><TD>.72</TD><TD>.73-.74</TD><TD>.75</TD></TR> 
+<TR><TD>.76</TD><TD>.77-.78</TD><TD>.79</TD></TR> 
+<TR><TD>.80</TD><TD>.81-.82</TD><TD>.83</TD></TR> 
+<TR><TD>.84</TD><TD>.85-.86</TD><TD>.87</TD></TR> 
+<TR><TD>.88</TD><TD>.89-.90</TD><TD>.91</TD></TR> 
+<TR><TD>.92</TD><TD>.93-.94</TD><TD>.95</TD></TR> 
+<TR><TD>.96</TD><TD>.97-.98</TD><TD>.99</TD></TR> 
+<TR><TD>.100</TD><TD>.101-.102</TD><TD>.103</TD></TR> 
+<TR><TD>.104</TD><TD>.105-.106</TD><TD>.107</TD></TR> 
+<TR><TD>.108</TD><TD>.109-.110</TD><TD>.111</TD></TR> 
+<TR><TD>.112</TD><TD>.113-.114</TD><TD>.115</TD></TR> 
+<TR><TD>.116</TD><TD>.117-.118</TD><TD>.119</TD></TR> 
+<TR><TD>.120</TD><TD>.121-.122</TD><TD>.123</TD></TR> 
+<TR><TD>.124</TD><TD>.125-.126</TD><TD>.127</TD></TR> 
+<TR><TD>.128</TD><TD>.129-.130</TD><TD>.131</TD></TR> 
+<TR><TD>.132</TD><TD>.133-.134</TD><TD>.135</TD></TR> 
+<TR><TD>.136</TD><TD>.137-.138</TD><TD>.139</TD></TR> 
+<TR><TD>.140</TD><TD>.141-.142</TD><TD>.143</TD></TR> 
+<TR><TD>.144</TD><TD>.145-.146</TD><TD>.147</TD></TR> 
+<TR><TD>.148</TD><TD>.149-.150</TD><TD>.151</TD></TR> 
+<TR><TD>.152</TD><TD>.153-.154</TD><TD>.155</TD></TR> 
+<TR><TD>.156</TD><TD>.157-.158</TD><TD>.159</TD></TR> 
+<TR><TD>.160</TD><TD>.161-.162</TD><TD>.163</TD></TR> 
+<TR><TD>.164</TD><TD>.165-.166</TD><TD>.167</TD></TR> 
+<TR><TD>.168</TD><TD>.169-.170</TD><TD>.171</TD></TR> 
+<TR><TD>.172</TD><TD>.173-.174</TD><TD>.175</TD></TR> 
+<TR><TD>.176</TD><TD>.177-.178</TD><TD>.179</TD></TR> 
+<TR><TD>.180</TD><TD>.181-.182</TD><TD>.183</TD></TR> 
+<TR><TD>.184</TD><TD>.185-.186</TD><TD>.187</TD></TR> 
+<TR><TD>.188</TD><TD>.189-.190</TD><TD>.191</TD></TR> 
+<TR><TD>.192</TD><TD>.193-.194</TD><TD>.195</TD></TR> 
+<TR><TD>.196</TD><TD>.197-.198</TD><TD>.199</TD></TR> 
+<TR><TD>.200</TD><TD>.201-.202</TD><TD>.203</TD></TR> 
+<TR><TD>.204</TD><TD>.205-.206</TD><TD>.207</TD></TR> 
+<TR><TD>.208</TD><TD>.209-.210</TD><TD>.211</TD></TR> 
+<TR><TD>.212</TD><TD>.213-.214</TD><TD>.215</TD></TR> 
+<TR><TD>.216</TD><TD>.217-.218</TD><TD>.219</TD></TR> 
+<TR><TD>.220</TD><TD>.221-.222</TD><TD>.223</TD></TR> 
+<TR><TD>.224</TD><TD>.225-.226</TD><TD>.227</TD></TR> 
+<TR><TD>.228</TD><TD>.229-.230</TD><TD>.231</TD></TR> 
+<TR><TD>.232</TD><TD>.233-.234</TD><TD>.235</TD></TR> 
+<TR><TD>.236</TD><TD>.237-.238</TD><TD>.239</TD></TR> 
+<TR><TD>.240</TD><TD>.241-.242</TD><TD>.243</TD></TR> 
+<TR><TD>.244</TD><TD>.245-.246</TD><TD>.247</TD></TR> 
+<TR><TD>.248</TD><TD>.249-.250</TD><TD>.251</TD></TR> 
+<TR><TD>.252</TD><TD>.253-.254</TD><TD>.255</TD></TR> 
+</TABLE> 
+</CENTER> 
+</TD>
+</TR>
+
+<TD> <B>/26 -- 4 Subnets -- 62 Hosts/Subnet</B> 
+<CENTER> 
+<TABLE BORDER=1 CELLSPACING=1 CELLPADDING=1 HSPACE=1 VSPACE=1> 
+<TR><TH>Network #</TH><TH>IP Range</TH><TH>Broadcast</TH></TR> 
+<TR><TD>.0</TD><TD>.1-.62</TD><TD>.63</TD></TR> 
+<TR><TD>.64</TD><TD>.65-.126</TD><TD>.127</TD></TR> 
+<TR><TD>.128</TD><TD>.129-.190</TD><TD>.191</TD></TR> 
+<TR><TD>.192</TD><TD>.193-.254</TD><TD>.255</TD></TR> 
+</TABLE> 
+</CENTER> 
+</TD> 
+</TR> 
+
+
+<TR> 
+<TD> <B>/27 -- 8 Subnets -- 30 Hosts/Subnet</B>
+<CENTER> 
+<TABLE BORDER=1 CELLSPACING=1 CELLPADDING=1 HSPACE=1 VSPACE=1> 
+<TR><TH>Network #</TH><TH>IP Range</TH><TH>Broadcast</TH></TR> 
+<TR><TD>.0</TD><TD>.1-.30</TD><TD>.31</TD></TR> 
+<TR><TD>.32</TD><TD>.33-.62</TD><TD>.63</TD></TR> 
+<TR><TD>.64</TD><TD>.65-.94</TD><TD>.95</TD></TR> 
+<TR><TD>.96</TD><TD>.97-.126</TD><TD>.127</TD></TR> 
+<TR><TD>.128</TD><TD>.129-.158</TD><TD>.159</TD></TR> 
+<TR><TD>.160</TD><TD>.161-.190</TD><TD>.191</TD></TR> 
+<TR><TD>.192</TD><TD>.193-.222</TD><TD>.223</TD></TR> 
+<TR><TD>.224</TD><TD>.225-.254</TD><TD>.255</TD></TR> 
+</TABLE> 
+</CENTER> 
+</TD> 
+</TR> 
+
+<TR> 
+<TD> <B>/28 -- 16 Subnets -- 14 Hosts/Subnet</B>
+<CENTER> 
+<TABLE BORDER=1 CELLSPACING=1 CELLPADDING=1 HSPACE=1 VSPACE=1> 
+<TR><TH>Network #</TH><TH>IP Range</TH><TH>Broadcast</TH></TR> 
+<TR><TD>.0</TD><TD>.1-.14</TD><TD>.15</TD></TR> 
+<TR><TD>.16</TD><TD>.17-.30</TD><TD>.31</TD></TR> 
+<TR><TD>.32</TD><TD>.33-.46</TD><TD>.47</TD></TR> 
+<TR><TD>.48</TD><TD>.49-.62</TD><TD>.63</TD></TR> 
+<TR><TD>.64</TD><TD>.65-.78</TD><TD>.79</TD></TR> 
+<TR><TD>.80</TD><TD>.81-.94</TD><TD>.95</TD></TR> 
+<TR><TD>.96</TD><TD>.97-.110</TD><TD>.111</TD></TR> 
+<TR><TD>.112</TD><TD>.113-.126</TD><TD>.127</TD></TR> 
+<TR><TD>.128</TD><TD>.129-.142</TD><TD>.143</TD></TR> 
+<TR><TD>.144</TD><TD>.145-.158</TD><TD>.159</TD></TR> 
+<TR><TD>.160</TD><TD>.161-.174</TD><TD>.175</TD></TR> 
+<TR><TD>.176</TD><TD>.177-.190</TD><TD>.191</TD></TR> 
+<TR><TD>.192</TD><TD>.193-.206</TD><TD>.207</TD></TR> 
+<TR><TD>.208</TD><TD>.209-.222</TD><TD>.223</TD></TR> 
+<TR><TD>.224</TD><TD>.225-.238</TD><TD>.239</TD></TR> 
+<TR><TD>.240</TD><TD>.241-.254</TD><TD>.255</TD></TR> 
+</TABLE> 
+</CENTER> 
+</TD>
+</TR>
+
+<TR>
+<TD> <B>/29 -- 32 Subnets -- 6 Hosts/Subnet</B>
+<CENTER> 
+<TABLE BORDER=1 CELLSPACING=1 CELLPADDING=1 HSPACE=1 VSPACE=1> 
+<TR><TH>Network #</TH><TH>IP Range</TH><TH>Broadcast</TH></TR> 
+<TR><TD>.0</TD><TD>.1-.6</TD><TD>.7</TD></TR> 
+<TR><TD>.8</TD><TD>.9-.14</TD><TD>.15</TD></TR> 
+<TR><TD>.16</TD><TD>.17-.22</TD><TD>.23</TD></TR> 
+<TR><TD>.24</TD><TD>.25-.30</TD><TD>.31</TD></TR> 
+<TR><TD>.32</TD><TD>.33-.38</TD><TD>.39</TD></TR> 
+<TR><TD>.40</TD><TD>.41-.46</TD><TD>.47</TD></TR> 
+<TR><TD>.48</TD><TD>.49-.54</TD><TD>.55</TD></TR> 
+<TR><TD>.56</TD><TD>.57-.62</TD><TD>.63</TD></TR> 
+<TR><TD>.64</TD><TD>.65-.70</TD><TD>.71</TD></TR> 
+<TR><TD>.72</TD><TD>.73-.78</TD><TD>.79</TD></TR> 
+<TR><TD>.80</TD><TD>.81-.86</TD><TD>.87</TD></TR> 
+<TR><TD>.88</TD><TD>.89-.94</TD><TD>.95</TD></TR> 
+<TR><TD>.96</TD><TD>.97-.102</TD><TD>.103</TD></TR> 
+<TR><TD>.104</TD><TD>.105-.110</TD><TD>.111</TD></TR> 
+<TR><TD>.112</TD><TD>.113-.118</TD><TD>.119</TD></TR> 
+<TR><TD>.120</TD><TD>.121-.126</TD><TD>.127</TD></TR> 
+<TR><TD>.128</TD><TD>.129-.134</TD><TD>.135</TD></TR> 
+<TR><TD>.136</TD><TD>.137-.142</TD><TD>.143</TD></TR> 
+<TR><TD>.144</TD><TD>.145-.150</TD><TD>.151</TD></TR> 
+<TR><TD>.152</TD><TD>.153-.158</TD><TD>.159</TD></TR> 
+<TR><TD>.160</TD><TD>.161-.166</TD><TD>.167</TD></TR> 
+<TR><TD>.168</TD><TD>.169-.174</TD><TD>.175</TD></TR> 
+<TR><TD>.176</TD><TD>.177-.182</TD><TD>.183</TD></TR> 
+<TR><TD>.184</TD><TD>.185-.190</TD><TD>.191</TD></TR> 
+<TR><TD>.192</TD><TD>.193-.198</TD><TD>.199</TD></TR> 
+<TR><TD>.200</TD><TD>.201-.206</TD><TD>.207</TD></TR> 
+<TR><TD>.208</TD><TD>.209-.214</TD><TD>.215</TD></TR> 
+<TR><TD>.216</TD><TD>.217-.222</TD><TD>.223</TD></TR> 
+<TR><TD>.224</TD><TD>.225-.230</TD><TD>.231</TD></TR> 
+<TR><TD>.232</TD><TD>.233-.238</TD><TD>.239</TD></TR> 
+<TR><TD>.240</TD><TD>.241-.246</TD><TD>.247</TD></TR> 
+<TR><TD>.248</TD><TD>.249-.254</TD><TD>.255</TD></TR> 
+</TABLE> 
+</CENTER> 
+</TD>
+</TR> 
+</TABLE> 
+</CENTER> 
+<HR>
+<CENTER> <H1>IPv6 Subnet Cheat Sheet</H1><br> 
+<p>IPv6 is a complete and different animal as far as subnetting goes. Please note the yellow rows as <br>
+each has special common use or notes.  If there is nothing in the "Amount of a /64" column that means <br>
+it is to miniscule or to massive to justify calculation.  Not much is the same with IPv6 compared to  IPv4.  <br>
+Route aggregation and purpose drive subnetting is something which every enterprise IPv6 deployment will make <br>
+use of, or it will fail miserably.</p>
+
+<HR>
+<TABLE border=2 cellpadding=2 cellspacing=2>
+<TR><TH>Subnet</TH><TH>Addresses</TH><TH>Amount of a /64</TH></TR>
+<TR align=center><TH>/128</TH><TD>1</TD><TD></TD></TR>
+<TR align=center><TH>/127</TH><TD>2</TD><TD></TD></TR>
+<TR align=center><TH>/126</TH><TD>4</TD><TD></TD></TR>
+<TR align=center><TH>/125</TH><TD>8</TD><TD></TD></TR>
+<TR align=center><TH>/124</TH><TD>16</TD><TD></TD></TR>
+<TR align=center><TH>/123</TH><TD>32</TD><TD></TD></TR>
+<TR align=center><TH>/122</TH><TD>64</TD><TD></TD></TR>
+<TR align=center><TH>/121</TH><TD>128</TD><TD></TD></TR>
+<TR align=center><TH>/120</TH><TD>256</TD><TD></TD></TR>
+<TR align=center><TH>/119</TH><TD>512</TD><TD></TD></TR>
+<TR align=center><TH>/118</TH><TD>1,024</TD><TD></TD></TR>
+<TR align=center><TH>/117</TH><TD>2,048</TD><TD></TD></TR>
+<TR align=center><TH>/116</TH><TD>4,096</TD><TD></TD></TR>
+<TR align=center><TH>/115</TH><TD>8,192</TD><TD></TD></TR>
+<TR align=center><TH>/114</TH><TD>16,384</TD><TD></TD></TR>
+<TR align=center><TH>/113</TH><TD>32,768</TD><TD></TD></TR>
+<TR align=center><TH>/112</TH><TD>65,536</TD><TD></TD></TR>
+<TR align=center><TH>/111</TH><TD>131,072</TD><TD></TD></TR>
+<TR align=center><TH>/110</TH><TD>262,144</TD><TD></TD></TR>
+<TR align=center><TH>/109</TH><TD>524,288</TD><TD></TD></TR>
+<TR align=center><TH>/108</TH><TD>1,048,576</TD><TD></TD></TR>
+<TR align=center><TH>/107</TH><TD>2,097,152</TD><TD></TD></TR>
+<TR align=center><TH>/106</TH><TD>4,194,304</TD><TD></TD></TR>
+<TR align=center><TH>/105</TH><TD>8,388,608</TD><TD></TD></TR>
+<TR align=center bgcolor=yellow><TH>/104</TH><TD>16,777,216</TD><TD>This is equivalent to an IPv4 Internet or IPv4 /8</TD></TR>
+<TR align=center><TH>/103</TH><TD>33,554,432</TD><TD></TD></TR>
+<TR align=center><TH>/102</TH><TD>67,108,864</TD><TD></TD></TR>
+<TR align=center><TH>/101</TH><TD>134,217,728</TD><TD></TD></TR>
+<TR align=center><TH>/100</TH><TD>268,435,456</TD><TD></TD></TR>
+<TR align=center><TH>/99</TH><TD>536,870,912</TD><TD></TD></TR>
+<TR align=center><TH>/98</TH><TD>1,073,741,824</TD><TD></TD></TR>
+<TR align=center><TH>/97</TH><TD>2,147,483,648</TD><TD></TD></TR>
+<TR align=center><TH>/96</TH><TD>4,294,967,296</TD><TD></TD></TR>
+<TR align=center><TH>/95</TH><TD>8,589,934,592</TD><TD></TD></TR>
+<TR align=center><TH>/94</TH><TD>17,179,869,184</TD><TD></TD></TR>
+<TR align=center><TH>/93</TH><TD>34,359,738,368</TD><TD></TD></TR>
+<TR align=center><TH>/92</TH><TD>68,719,476,736</TD><TD></TD></TR>
+<TR align=center><TH>/91</TH><TD>137,438,953,472</TD><TD></TD></TR>
+<TR align=center><TH>/90</TH><TD>274,877,906,944</TD><TD></TD></TR>
+<TR align=center><TH>/89</TH><TD>549,755,813,888</TD><TD></TD></TR>
+<TR align=center><TH>/88</TH><TD>1,099,511,627,776</TD><TD></TD></TR>
+<TR align=center><TH>/87</TH><TD>2,199,023,255,552</TD><TD>1/8,388,608</TD></TR>
+<TR align=center><TH>/86</TH><TD>4,398,046,511,104</TD><TD>1/4,194,304</TD></TR>
+<TR align=center><TH>/85</TH><TD>8,796,093,022,208</TD><TD>1/2,097,152</TD></TR>
+<TR align=center><TH>/84</TH><TD>17,592,186,044,416</TD><TD>1/1,048,576</TD></TR>
+<TR align=center><TH>/83</TH><TD>35,184,372,088,832</TD><TD>1/524,288</TD></TR>
+<TR align=center><TH>/82</TH><TD>70,368,744,177,664</TD><TD>1/262,144</TD></TR>
+<TR align=center><TH>/81</TH><TD>140,737,488,355,328</TD><TD>1/131,072</TD></TR>
+<TR align=center><TH>/80</TH><TD>281,474,976,710,656</TD><TD>1/65,536</TD></TR>
+<TR align=center><TH>/79</TH><TD>562,949,953,421,312</TD><TD>1/32,768</TD></TR>
+<TR align=center><TH>/78</TH><TD>1,125,899,906,842,620</TD><TD>1/16,384</TD></TR>
+<TR align=center><TH>/77</TH><TD>2,251,799,813,685,240</TD><TD>1/8,192</TD></TR>
+<TR align=center><TH>/76</TH><TD>4,503,599,627,370,490</TD><TD>1/4,096</TD></TR>
+<TR align=center><TH>/75</TH><TD>9,007,199,254,740,990</TD><TD>1/2,048</TD></TR>
+<TR align=center><TH>/74</TH><TD>18,014,398,509,481,900</TD><TD>1/1,024</TD></TR>
+<TR align=center><TH>/73</TH><TD>36,028,797,018,963,900</TD><TD>1/512</TD></TR>
+<TR align=center><TH>/72</TH><TD>72,057,594,037,927,900</TD><TD>1/256</TD></TR>
+<TR align=center><TH>/71</TH><TD>144,115,188,075,855,000</TD><TD>1/128</TD></TR>
+<TR align=center><TH>/70</TH><TD>288,230,376,151,711,000</TD><TD>1/64</TD></TR>
+<TR align=center><TH>/69</TH><TD>576,460,752,303,423,000</TD><TD>1/32</TD></TR>
+<TR align=center><TH>/68</TH><TD>1,152,921,504,606,840,000</TD><TD>1/16</TD></TR>
+<TR align=center><TH>/67</TH><TD>2,305,843,009,213,690,000</TD><TD>1/8</TD></TR>
+<TR align=center><TH>/66</TH><TD>4,611,686,018,427,380,000</TD><TD>1/4</TD></TR>
+<TR align=center><TH>/65</TH><TD>9,223,372,036,854,770,000</TD><TD>1/2</TD></TR>
+<TR align=center bgcolor=yellow><TH>/64</TH><TD>18,446,744,073,709,500,000</TD><TD>This is the standard end user allocation</TD></TR>
+<TR align=center><TH>/63</TH><TD>36,893,488,147,419,100,000</TD><TD>2</TD></TR>
+<TR align=center><TH>/62</TH><TD>73,786,976,294,838,200,000</TD><TD>4</TD></TR>
+<TR align=center><TH>/61</TH><TD>147,573,952,589,676,000,000</TD><TD>8</TD></TR>
+<TR align=center><TH>/60</TH><TD>295,147,905,179,352,000,000</TD><TD>16</TD></TR>
+<TR align=center><TH>/59</TH><TD>590,295,810,358,705,000,000</TD><TD>32</TD></TR>
+<TR align=center><TH>/58</TH><TD>1,180,591,620,717,410,000,000</TD><TD>64</TD></TR>
+<TR align=center><TH>/57</TH><TD>2,361,183,241,434,820,000,000</TD><TD>128</TD></TR>
+<TR align=center><TH>/56</TH><TD>4,722,366,482,869,640,000,000</TD><TD>256</TD></TR>
+<TR align=center><TH>/55</TH><TD>9,444,732,965,739,290,000,000</TD><TD>512</TD></TR>
+<TR align=center><TH>/54</TH><TD>18,889,465,931,478,500,000,000</TD><TD>1,024</TD></TR>
+<TR align=center><TH>/53</TH><TD>37,778,931,862,957,100,000,000</TD><TD>2,048</TD></TR>
+<TR align=center><TH>/52</TH><TD>75,557,863,725,914,300,000,000</TD><TD>4,096</TD></TR>
+<TR align=center><TH>/51</TH><TD>151,115,727,451,828,000,000,000</TD><TD>8,192</TD></TR>
+<TR align=center><TH>/50</TH><TD>302,231,454,903,657,000,000,000</TD><TD>16,384</TD></TR>
+<TR align=center><TH>/49</TH><TD>604,462,909,807,314,000,000,000</TD><TD>32,768</TD></TR>
+<TR align=center bgcolor=yellow><TH>/48</TH><TD>1,208,925,819,614,620,000,000,000</TD><TD>65,536 This is the standard business allocation</TD></TR>
+<TR align=center><TH>/47</TH><TD>2,417,851,639,229,250,000,000,000</TD><TD>131,072</TD></TR>
+<TR align=center><TH>/46</TH><TD>4,835,703,278,458,510,000,000,000</TD><TD>262,144</TD></TR>
+<TR align=center><TH>/45</TH><TD>9,671,406,556,917,030,000,000,000</TD><TD>524,288</TD></TR>
+<TR align=center><TH>/44</TH><TD>19,342,813,113,834,000,000,000,000</TD><TD>1,048,576</TD></TR>
+<TR align=center><TH>/43</TH><TD>38,685,626,227,668,100,000,000,000</TD><TD>2,097,152</TD></TR>
+<TR align=center><TH>/42</TH><TD>77,371,252,455,336,200,000,000,000</TD><TD>4,194,304</TD></TR>
+<TR align=center><TH>/41</TH><TD>154,742,504,910,672,000,000,000,000</TD><TD>8,388,608</TD></TR>
+<TR align=center><TH>/40</TH><TD>309,485,009,821,345,000,000,000,000</TD><TD>16,777,216</TD></TR>
+<TR align=center><TH>/39</TH><TD>618,970,019,642,690,000,000,000,000</TD><TD>33,554,432</TD></TR>
+<TR align=center><TH>/38</TH><TD>1,237,940,039,285,380,000,000,000,000</TD><TD>67,108,864</TD></TR>
+<TR align=center><TH>/37</TH><TD>2,475,880,078,570,760,000,000,000,000</TD><TD>134,217,728</TD></TR>
+<TR align=center><TH>/36</TH><TD>4,951,760,157,141,520,000,000,000,000</TD><TD>268,435,456</TD></TR>
+<TR align=center><TH>/35</TH><TD>9,903,520,314,283,040,000,000,000,000</TD><TD>536,870,912</TD></TR>
+<TR align=center><TH>/34</TH><TD>19,807,040,628,566,000,000,000,000,000</TD><TD>1,073,741,824</TD></TR>
+<TR align=center><TH>/33</TH><TD>39,614,081,257,132,100,000,000,000,000</TD><TD>2,147,483,648</TD></TR>
+<TR align=center bgcolor=yellow><TH>/32</TH><TD>79,228,162,514,264,300,000,000,000,000</TD><TD>4,294,967,296 This is the standard ISP Allocation</TD></TR>
+<TR align=center><TH>/31</TH><TD>158,456,325,028,528,000,000,000,000,000</TD><TD>8,589,934,592</TD></TR>
+<TR align=center><TH>/30</TH><TD>316,912,650,057,057,000,000,000,000,000</TD><TD>17,179,869,184</TD></TR>
+<TR align=center><TH>/29</TH><TD>633,825,300,114,114,000,000,000,000,000</TD><TD>34,359,738,368</TD></TR>
+<TR align=center><TH>/28</TH><TD>1,267,650,600,228,220,000,000,000,000,000</TD><TD>68,719,476,736</TD></TR>
+<TR align=center><TH>/27</TH><TD>2,535,301,200,456,450,000,000,000,000,000</TD><TD></TD></TR>
+<TR align=center><TH>/26</TH><TD>5,070,602,400,912,910,000,000,000,000,000</TD><TD></TD></TR>
+<TR align=center><TH>/25</TH><TD>10,141,204,801,825,800,000,000,000,000,000</TD><TD></TD></TR>
+<TR align=center><TH>/24</TH><TD>20,282,409,603,651,600,000,000,000,000,000</TD><TD></TD></TR>
+<TR align=center><TH>/23</TH><TD>40,564,819,207,303,300,000,000,000,000,000</TD><TD></TD></TR>
+<TR align=center><TH>/22</TH><TD>81,129,638,414,606,600,000,000,000,000,000</TD><TD></TD></TR>
+<TR align=center><TH>/21</TH><TD>162,259,276,829,213,000,000,000,000,000,000</TD><TD></TD></TR>
+<TR align=center><TH>/20</TH><TD>324,518,553,658,426,000,000,000,000,000,000</TD><TD></TD></TR>
+<TR align=center><TH>/19</TH><TD>649,037,107,316,853,000,000,000,000,000,000</TD><TD></TD></TR>
+<TR align=center><TH>/18</TH><TD>1,298,074,214,633,700,000,000,000,000,000,000</TD><TD></TD></TR>
+<TR align=center><TH>/17</TH><TD>2,596,148,429,267,410,000,000,000,000,000,000</TD><TD></TD></TR>
+<TR align=center><TH>/16</TH><TD>5,192,296,858,534,820,000,000,000,000,000,000</TD><TD></TD></TR>
+<TR align=center><TH>/15</TH><TD>10,384,593,717,069,600,000,000,000,000,000,000</TD><TD></TD></TR>
+<TR align=center><TH>/14</TH><TD>20,769,187,434,139,300,000,000,000,000,000,000</TD><TD></TD></TR>
+<TR align=center><TH>/13</TH><TD>41,538,374,868,278,600,000,000,000,000,000,000</TD><TD></TD></TR>
+<TR align=center><TH>/12</TH><TD>83,076,749,736,557,200,000,000,000,000,000,000</TD><TD></TD></TR>
+<TR align=center><TH>/11</TH><TD>166,153,499,473,114,000,000,000,000,000,000,000</TD><TD></TD></TR>
+<TR align=center><TH>/10</TH><TD>332,306,998,946,228,000,000,000,000,000,000,000</TD><TD></TD></TR>
+<TR align=center><TH>/9</TH><TD>664,613,997,892,457,000,000,000,000,000,000,000</TD><TD></TD></TR>
+<TR align=center><TH>/8</TH><TD>1,329,227,995,784,910,000,000,000,000,000,000,000</TD><TD></TD></TR>
+</TABLE>
+</CENTER>
+</BODY>
+</HTML> 
